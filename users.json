@@ -1,0 +1,69 @@
+{
+    "61e858bd092a3": {
+        "username": "Toby",
+        "password": "$2y$10$H7q9gGxy5wYe1.\/ybZOose.ryiwFrqqjp9\/z0nVc9fR9IBJn2pE3a",
+        "email": "Toby@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/users\/toby.png",
+        "id": "61e858bd092a3"
+    },
+    "61e85eefc8304": {
+        "username": "Viki",
+        "password": "$2y$10$27w50It.WinY1xQiK58o0Oqk\/ZXyKLHR4s98LEa6Fa7GazVm5Eo2.",
+        "email": "vikiluvtoby@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/users\/viki.png",
+        "id": "61e85eefc8304"
+    },
+    "61e85f30b6120": {
+        "username": "admin",
+        "password": "$2y$10$MXtXbGHBrNbSJe4dSgwoWOT6UKH\/T53qAlUQ4UjeeOC8bhJd1z01G",
+        "email": "admin@eltestadium.hu",
+        "roles": [
+            "user",
+            "admin"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/default.png",
+        "id": "61e85f30b6120"
+    },
+    "61e85fb945bbe": {
+        "username": "Test",
+        "password": "$2y$10$EdWtmNsQPWpKwZFdiSVUieRQqLOhssmWvPsbI9R0kInv\/AJ2YjNqy",
+        "email": "testing@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/default.png",
+        "id": "61e85fb945bbe"
+    },
+    "61e8a1c66adb9": {
+        "username": "Testing2",
+        "password": "$2y$10$zWECpU6nU2zF4k4Rg7AxKeVwk3deA9ddbG5SaKzxFVU7fWWncGkUm",
+        "email": "test2@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/default.png",
+        "id": "61e8a1c66adb9"
+    },
+    "61e93623e1398": {
+        "username": "Lmao",
+        "password": "$2y$10$QvvVZetShsPDam2YU2UYdOH3B7bMwz.jMEELXENuhPNjDyguE.zfS",
+        "email": "lmao@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "favorite_teams": [],
+        "image": ".\/assets\/default.png",
+        "id": "61e93623e1398"
+    }
+}

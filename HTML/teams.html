@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav>
+        <a href="./">
+            <h1>ELTE STadium</h1>
+        </a>
+        <div style="display: flex; gap: 20px;">
+            <a href="./">Dashboard</a>
+            <a href="./teams.html">Teams</a>
+            <a href="./teams.html">Articles</a>
+            <a href="./teams.html">Results</a>
+            <a href="./teams.html">Tournaments</a>
+            <a href="/" style="margin-left: 50px; color: var(--sec-color);font-weight: 700;">Login</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="grid-cont">
+            <!-- 1 COL -->
+            <section>
+                <div class="block-cont">
+                    <h3 class="block-title">Recent Activities</h3>
+                    <div class="block">
+
+                        <div class="row-activities">
+                            <img src="" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, facilis!</p>
+                            <h3>1h</h3>
+                        </div>
+
+                        <div class="row-activities">
+                            <img src="" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, facilis!</p>
+                            <h3>1h</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <!-- Comments -->
+                <div class="block-cont">
+                    <h3 class="block-title">Comments</h3>
+                    <div class="block">
+
+                        <div class="row-comment-cont">
+                            <img src="" alt="">
+                            <div class="row-comment-content">
+                                <h4>hieu</h4>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam 
+                                    molestias deleniti libero odit a quia, nesciunt dolorum, earum unde 
+                                    iste explicabo alias sunt sint assumenda maxime modi minus 
+                                    necessitatibus repellat?
+                                </p>
+                                <div class="row-comment-tools">
+                                    <div style="display: flex; gap: 10px;">
+                                        <img src="./assets/up.svg" alt="">
+                                        <h5>20</h5>
+                                        <img src="./assets/down.svg" alt="">
+                                    </div>
+                                    <div style="display: flex; gap: 10px;">
+                                        <img src="./assets/sharebtn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>1h</h3>
+                        </div>
+
+
+
+                        <div class="row-comment-cont">
+                            <img src="" alt="">
+                            <div class="row-comment-content">
+                                <h4>hieu</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, tempora!</p>
+                                <div class="row-comment-tools">
+                                    <div style="display: flex; gap: 10px;">
+                                        <img src="./assets/up.svg" alt="">
+                                        <h5>20</h5>
+                                        <img src="./assets/down.svg" alt="">
+                                    </div>
+                                    <div style="display: flex; gap: 10px;">
+                                        <img src="./assets/sharebtn.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>1h</h3>
+                        </div>
+
+                        
+                        <button class="btn-comment">
+                            Leave a comment
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2 COL -->
+            <section>
+                <div class="block-cont">
+                    <div class="block">
+                        <h1>sd</h1>
+                    </div>
+                </div>
+
+
+                 <!-- Upcoming Match Block -->
+                 <div class="block-cont">
+                    <h3 class="block-title">Upcoming Matches</h3>
+                    <div class="block">
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <h5>MON,JAN 15</h5>
+                                    <p>12:30</p>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <button>Get ticket</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <h5>MON,JAN 15</h5>
+                                    <p>12:30</p>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <button>Get ticket</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                 <!-- Latest Match Block -->
+                <div class="block-cont">
+                    <div style="display: flex; justify-content: space-between;">
+                        <h3 class="block-title">Latest Matches</h3>
+                        <a href="./" style="text-decoration: none;">
+                            <div style="display: flex; align-items: center; gap: 10px; margin-right: 20px;">
+                                <p class="see more">See More</p>
+                                <img src="./assets/arrow.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="block">
+
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <div>
+                                        <p>4 : 2</p>
+                                    </div>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <img src="./assets/comment.svg"></img>
+                                <img src="./assets/chart.svg"></img>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <div>
+                                        <p>4 : 2</p>
+                                    </div>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <img src="./assets/comment.svg"></img>
+                                <img src="./assets/chart.svg"></img>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <div>
+                                        <p>4 : 2</p>
+                                    </div>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <img src="./assets/comment.svg"></img>
+                                <img src="./assets/chart.svg"></img>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-info1">
+                                <h4>League1</h4>
+                                <p>Puskas Ferenc Stadion</p>
+                            </div>
+
+                            <div class="col-info2">
+                                <div class="col-info2-left">
+                                    <h5>Team1</h5>
+                                </div>
+                                <div class="col-info2-middle">
+                                    <div>
+                                        <p>4 : 2</p>
+                                    </div>
+                                </div>
+                                <div class="col-info2-right">
+                                    <h5>Team2</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-info3">
+                                <img src="./assets/comment.svg"></img>
+                                <img src="./assets/chart.svg"></img>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3 COL -->
+            <section>
+                <div class="block-cont">
+                    <div class="block">
+                        <div class="team-profile-cont">
+                            <img src="./assets/logo.png" alt="">
+                            <span>Team Name</span>
+                            <p>MTK Budapest</p>
+                            <span>Short name</span>
+                            <p>MTK</p>
+                            <span>City</span>
+                            <p>Budapest</p>
+                            <span>Founded</span>
+                            <p>1920</p>
+                            <span>Owner</span>
+                            <p>Mr.Anderson</p>
+                            <span>Head Coach</span>
+                            <p>Mr.asdadada</p>
+                            <span>Website</span>
+                            <p>mtkbudapest.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-cont">
+                    <h3 class="block-title">Players</h3>
+                    <div class="block">
+                        <div class="row-player">
+                            <img src="" alt="">
+                            <div style="display: flex; flex-direction: column;">
+                                <h5>Juhasz Eszter</h5>
+                                <p>22 years old</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column;">
+                                <h5>Right Wing</h5>
+                                <p>Mogyorod</p>
+                            </div>
+                            <h4 style="justify-self: center;font-size: 20px;">31</h4>
+                        </div>
+
+                        <div class="row-player">
+                            <img src="" alt="">
+                            <div style="display: flex; flex-direction: column;">
+                                <h5>Juhasz Eszter</h5>
+                                <p>22 years old</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column;">
+                                <h5>Left Wing</h5>
+                                <p>Mogyorod</p>
+                            </div>
+                            <h4 style="justify-self: center;font-size: 20px;">31</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+</body>
+</html>

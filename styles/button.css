@@ -1,0 +1,15 @@
+.btn-comment{
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    background: var(--sec-color);
+    cursor: pointer;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px){
+
+}

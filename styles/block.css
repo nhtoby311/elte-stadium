@@ -1,0 +1,82 @@
+.block-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block-title{
+    font-size: 20px;
+    margin-left: 21px;
+    align-self: center;
+}
+
+.block{
+    background: var(--main-color);
+    padding: 20px 30px;
+    border-radius: 35px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.see-more{
+    font-size: 14px;
+}
+
+.team-profile-cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+
+.team-profile-cont img{
+    grid-area: 1 / 1 / 2 / 3;
+    width: 35%;
+}
+
+.team-profile-cont span{
+    color: #CFCFCF;
+    justify-self: flex-start;
+}
+
+.team-profile-cont p{
+    justify-self: flex-start;
+}
+
+#all-matches{
+    display: none;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px){
+    .block-title {
+        font-size: 14px;
+        margin-left: 21px;
+        
+    }
+
+    .see{
+        font-size: 14px;
+    }
+
+    .block{
+        padding: 15px 15px;
+        border-radius: 20px;
+    }
+
+    
+
+    .team-profile-cont span{
+        font-size: 10px;
+    }
+
+    .team-profile-cont p{
+        font-size: 10px;
+    }
+
+    
+}

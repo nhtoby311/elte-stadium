@@ -1,0 +1,318 @@
+.row{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #5C656C;
+}
+
+.row-icon-image{
+    width: 30px;
+}
+
+.col-info1{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-info1 h4{
+    color: white;
+}
+
+.col-info1 p{
+    color: #82878B;
+    font-size: 14px;
+}
+
+.col-info2{
+    display: grid;
+    grid-template-columns: 3fr auto 3fr;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.col-info2-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.col-info2-middle h5{
+    font-size: 10px;
+}
+
+.col-info2-middle p{
+    font-size: 9px;
+}
+
+.col-info2-middle div{
+    padding: 7px 20px;
+    background: #5C656C;
+    border-radius: 30px;
+}
+
+.col-info2-middle svg{
+    cursor: pointer;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+}
+
+.col-info2-middle svg path{
+    transition: fill 0.2s;
+}
+
+.col-info2-middle svg:hover path{
+    fill: var(--sec-color);
+}
+
+.col-info2-middle div p{
+    font-size: 9px;
+}
+
+.col-info2-left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    text-align: end;
+}
+
+.col-info2-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.col-info3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.col-info3 button{
+    padding: 7px 15px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background: var(--sec-color);
+    border-radius: 9px;
+}
+
+
+/* TOP DATA */
+.row-top-data{
+    display: grid;
+    grid-template-columns: auto 1fr 40px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 2px #5C656C;
+    padding-bottom: 10px;
+    transition: border-bottom 0.4s;
+}
+
+.row-top-data:hover{
+    border-bottom: solid 2px var(--sec-color);
+}
+
+.row-top-data h2{
+    font-size: 22px;
+    text-align: end;
+}
+
+.row-top-data > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-top-data > div h3{
+    font-size: 12px;
+}
+
+.row-top-data > div p{
+    font-size: 12px;
+    color: #82878B;
+}
+
+
+/* PLAYERS ROW */
+
+.row-player{
+    display: grid;
+    grid-template-columns: auto 5fr 3fr 1fr;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 2px #5C656C;
+    padding-bottom: 10px;
+}
+
+.row-player h5 {
+    font-size: 13px;
+}
+
+
+.row-player p {
+    font-size: 10px;
+    color: #CFCFCF;
+}
+
+
+
+/* Activities Row */
+
+.row-activities{
+    display: grid;
+    grid-template-columns: auto 1fr 20px;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #5C656C;
+}
+
+
+.row-activities p{
+    font-size: 13px;
+}
+
+.row-activities h3{
+    font-size: 13px;
+    justify-self: flex-end;
+}
+
+
+/* COMMENT */
+
+.row-comment-cont{
+    display: grid;
+    grid-template-columns: auto 1fr 20px;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #5C656C;
+}
+
+
+.row-comment-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.row-comment-cont h3{
+    font-size: 13px;
+}
+
+.row-comment-content h4{
+    font-size: 16px;
+}
+
+.row-comment-content p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.row-comment-tools{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+.row-comment-tools h5{
+    font-size: 12px;
+    align-self: center;
+}
+
+.result-color{
+    width: 3px;
+    border-radius: 5px;
+    height: 100%;
+    background: gray;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px){
+    .row-top-data > div h3 {
+        font-size: 10px;
+    }
+
+    .row-top-data > div p{
+        font-size: 9px;
+    }
+
+    .row-top-data h2{
+        font-size: 18px;
+    }
+
+    .col-info1 h4{
+        font-size: 14px;
+    }
+
+    .col-info1 p{
+        font-size: 10px;
+    }
+
+    .col-info2-left h5{
+        font-size: 12px;
+    }
+
+    .col-info2-middle{
+        margin: 0;
+    }
+
+    .col-info2-middle h5{
+        font-size: 9px;
+        text-align: center;
+    }
+
+
+    .col-info2-left{
+        gap: 10px;
+    }
+
+    .col-info2-right{
+        gap: 10px;
+    }
+
+    .col-info2-middle div{
+        padding: 5px 10px;
+    }
+
+
+    .col-info3 button{
+        font-size: 10px;
+    }
+
+
+
+    .row-activities p{
+        font-size: 10px;
+    }
+
+    .row-activities h3{
+        font-size: 11px;
+    }
+
+    .row-comment-content p{
+        font-size: 11px;
+    }
+
+    .row-comment-cont h3{
+        font-size: 12px;
+    }
+
+
+
+    .row-player h5{
+        font-size: 10px;
+    }
+
+
+}

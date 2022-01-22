@@ -1,0 +1,101 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    color: black;
+}
+input:-webkit-autofill {
+    box-shadow: 0 0 0 50px var(--bg-color) inset;
+    -webkit-box-shadow:0 0 0 50px var(--bg-color) inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: var(--sec-color);
+}
+
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0 50px var(--bg-color) inset;
+    -webkit-box-shadow: 0 0 0 50px var(--bg-color) inset;/*your box-shadow*/
+    -webkit-text-fill-color: var(--sec-color);
+} 
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.login-form > div{
+    width: 100%;
+    position: relative;
+}
+
+.login-form > div p{
+    margin-top: 10px;
+}
+
+.login-form > div input:focus ~span 
+{
+    font-size: 12px;
+    padding: 15px 0px;
+    transform: translateY(-35px);
+}
+
+.login-form input:valid ~span{
+    font-size: 12px;
+    padding: 15px 0px;
+    transform: translateY(-35px);
+}
+
+.login-form span{
+    color: white;
+    position: absolute;
+    left: 0;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: 10px 0px;
+    pointer-events: none;
+    -webkit-transition: 0.3s;
+    border-radius: 25px;
+    transition: 0.3s;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+.login-form input{
+    width: 100%;
+    color: white;
+    padding: 20px 0px;
+    border: none;
+    background: transparent;
+    border-bottom: solid 2px white;
+    outline: none;
+    font-size: 1.4rem;
+    
+}
+
+.login-form input:valid{
+    border-bottom: solid 2px var(--sec-color);
+    color : var(--sec-color);
+}
+
+.login-form input:autofill {
+    background:transparent
+}
+
+.login-form input:valid ~span{
+    color: var(--sec-color);
+}
+
+.error{
+    color: rgb(255, 64, 64);
+    font-weight: 600;
+    grid-column: span 2;
+}
+
+#comment-form{
+    display: none;
+}
+
+#comment-form textarea{
+    min-height: 200px;
+}
